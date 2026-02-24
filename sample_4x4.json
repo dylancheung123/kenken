@@ -1,0 +1,12 @@
+{
+  "size": 4,
+  "cages": [
+    {"cells": ["A4", "A3"], "op": "+", "target": 5},
+    {"cells": ["B4", "C4", "C3"], "op": "*", "target": 12},
+    {"cells": ["D4"], "target": 2},
+    {"cells": ["B3", "B2", "B1"], "op": "+", "target": 7},
+    {"cells": ["A2", "A1"], "op": "-", "target": 1},
+    {"cells": ["C2", "C1"], "op": "+", "target": 5},
+    {"cells": ["D3", "D2", "D1"], "op": "+", "target": 8}
+  ]
+}
