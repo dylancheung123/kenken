@@ -1,4 +1,4 @@
-"""Chat with Claude for Mathdoku hints, using the claude CLI for auth."""
+"""Chat with Claude for KenKen hints, using the claude CLI for auth."""
 
 import subprocess
 
@@ -7,7 +7,7 @@ def _build_board_description(game, grid_snapshot=None) -> str:
     """Build a text description of the current puzzle and board state."""
     size = game.size
     grid = grid_snapshot if grid_snapshot else game.grid
-    lines = ["Mathdoku %dx%d puzzle." % (size, size)]
+    lines = ["KenKen %dx%d puzzle." % (size, size)]
     lines.append("")
     lines.append("Cages:")
     for cage in game.cages:
@@ -33,7 +33,7 @@ def _build_board_description(game, grid_snapshot=None) -> str:
 
 
 SYSTEM_PROMPT = (
-    "You are a helpful Mathdoku (KenKen) tutor. The user is playing a puzzle and may ask for hints, "
+    "You are a helpful KenKen tutor. The user is playing a puzzle and may ask for hints, "
     "strategy advice, or help with specific cells. Give helpful hints without directly giving away the "
     "full solution. Guide them toward the answer. Be concise — your response will be shown in a small "
     "terminal area. Keep responses under 8 lines."

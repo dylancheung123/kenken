@@ -1,6 +1,6 @@
-# Mathdoku
+# KenKen
 
-A terminal-based [Mathdoku](https://en.wikipedia.org/wiki/KenKen) (KenKen) puzzle game built with Python and curses. Define puzzles in JSON, solve them in a clean TUI, and ask Claude for hints when you're stuck.
+A terminal-based [KenKen](https://en.wikipedia.org/wiki/KenKen) puzzle game built with Python and curses. Define puzzles in JSON, solve them in a clean TUI, and ask Claude for hints when you're stuck.
 
 <img width="551" height="533" alt="Screenshot 2026-02-24 at 12 00 03 PM" src="https://github.com/user-attachments/assets/f544d4dd-f11d-4012-89a9-c5fe11b29c41" />
 
@@ -21,7 +21,7 @@ A terminal-based [Mathdoku](https://en.wikipedia.org/wiki/KenKen) (KenKen) puzzl
 ## Getting Started
 
 ```bash
-python3 mathdoku.py sample_4x4.json
+python3 kenken.py sample_4x4.json
 ```
 
 ### Controls
@@ -69,7 +69,7 @@ The chat runs in the background so you can keep playing while waiting for a resp
 ## Project Structure
 
 ```
-mathdoku.py     # Entry point — argparse, loads JSON, launches curses
+kenken.py       # Entry point — argparse, loads JSON, launches curses
 puzzle.py       # Puzzle loading, coordinate parsing, validation
 game.py         # Game state, input handling, validation, win check
 renderer.py     # Curses TUI rendering — grid, borders, colors

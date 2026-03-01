@@ -1,4 +1,4 @@
-"""Game state, input handling, validation, and win checking for Mathdoku."""
+"""Game state, input handling, validation, and win checking for KenKen."""
 
 import json
 import os

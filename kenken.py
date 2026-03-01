@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mathdoku (KenKen) CLI puzzle game — entry point."""
+"""KenKen CLI puzzle game — entry point."""
 
 import argparse
 import curses
@@ -108,7 +108,7 @@ def main_loop(stdscr, game: GameState):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Mathdoku (KenKen) puzzle game")
+    parser = argparse.ArgumentParser(description="KenKen puzzle game")
     parser.add_argument("puzzle", help="Path to puzzle JSON file")
     args = parser.parse_args()
 

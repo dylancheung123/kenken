@@ -1,4 +1,4 @@
-"""Puzzle loading, parsing, and validation for Mathdoku."""
+"""Puzzle loading, parsing, and validation for KenKen."""
 
 import json
 from collections import deque

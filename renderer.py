@@ -1,4 +1,4 @@
-"""Curses TUI rendering for Mathdoku: borders, cage labels, colors, cursor."""
+"""Curses TUI rendering for KenKen: borders, cage labels, colors, cursor."""
 
 import curses
 from game import GameState
