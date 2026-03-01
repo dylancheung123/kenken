@@ -2,7 +2,8 @@
 
 A terminal-based [Mathdoku](https://en.wikipedia.org/wiki/KenKen) (KenKen) puzzle game built with Python and curses. Define puzzles in JSON, solve them in a clean TUI, and ask Claude for hints when you're stuck.
 
-<img width="553" height="548" alt="Screenshot 2026-02-24 at 12 00 03 PM" src="https://github.com/user-attachments/assets/5f57a69f-1cdd-45b1-87c1-7e1b5b07410c" />
+<img width="551" height="533" alt="Screenshot 2026-02-24 at 12 00 03 PM" src="https://github.com/user-attachments/assets/f544d4dd-f11d-4012-89a9-c5fe11b29c41" />
+
 
 ![Python 3.9+](https://img.shields.io/badge/python-3.9%2B-blue)
 ![No Dependencies](https://img.shields.io/badge/dependencies-none-green)
